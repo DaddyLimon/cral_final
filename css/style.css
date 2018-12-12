@@ -123,7 +123,7 @@ nav#fixed {
 }
 .effect_3d_button {
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	left: 50%;
 	transform: translate(-50%, -50%) perspective(500px);
 	width: 330px;
@@ -142,6 +142,30 @@ nav#fixed {
 	cursor: pointer;
 	box-shadow: 0 0 0 5px rgba(0,0,0,.2);
 }
+.effect_3d_button_two{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) perspective(500px);
+  width: 330px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  background: linear-gradient(90deg, #5f6b47, #582632);
+  color: #fff;
+  text-shadow: 6px 3px 2px rgba(0,0,0,.2);
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: .5s;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 0 0 5px rgba(0,0,0,.2);
+}
+.effect_3d_button_two span {
+  color: red;
+}
 .effect_3d_button:hover {
 	transform: translate(-50%, -50%) perspective(500px) rotateY(15deg);
 	text-shadow: -6px 3px 2px rgba(0,0,0,.2);
@@ -155,6 +179,13 @@ nav#fixed {
 	height: 100%;
 	background: linear-gradient(90deg, transparent, #fff, transparent);
 	transition: .5s;
+}
+.text_mainer_about {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  margin: 0 auto;
 }
 .effect_3d_button:hover:before {
 	left: 100%;
@@ -251,7 +282,7 @@ canvas {
 }
 
 .languagepicker:hover {
-  height: 81px;
+  height: 160px;
 }
 
 .languagepicker a{
@@ -283,7 +314,7 @@ canvas {
 }
 
 .large:hover {
-  height: 120px;
+  height: 165px;
   margin-bottom: 10px;
 }
 .open_pay {
@@ -611,7 +642,7 @@ a {
 	font-size: 16px;
   color: #858585;
   line-height: 1.4;
-  text-align: center;
+  text-align: left;
 }
 .about_text_p_header {
 	font-family: 'Exo 2', sans-serif;
